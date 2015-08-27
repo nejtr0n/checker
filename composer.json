@@ -1,0 +1,30 @@
+{
+  "name": "nejtr0n/Comparator",
+  "description": "Compare two or more sites with seo filters",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jimmy Nejtr0n",
+      "email": "a6y@xakep.ru"
+    }
+  ],
+  "config": {
+    "vendor-dir": "src"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/nejtr0n/parser.git"
+    }
+  ],
+  "require":{
+    "php":">=5.3.0",
+    "ext-sqlite3" : "*",
+    "ext-curl" : "*",
+    "chuyskywalker/rolling-curl":"dev-master",
+    "twbs/bootstrap":"dev-master",
+    "nejtr0n/parser":"*",
+    "components/jquery":"dev-master"
+  }
+}

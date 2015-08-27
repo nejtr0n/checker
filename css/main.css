@@ -1,0 +1,58 @@
+#wrapper {
+    margin-top: 15px;
+}
+#csvfile-error {
+    color: red;
+    position: relative;
+    display: block;
+}
+#preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.95);
+    z-index: 9999;
+}
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../img/ajax-loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+}
+#status-info {
+    z-index: 99999;
+    color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    margin: -15px 0 0 -50px;
+}
+#status-info .info {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+}
+.setup2 {
+    display: none;
+}
+.no-js #preloader {
+    display: none;
+}
+.no-js #status {
+    display: none;
+}
