@@ -53,13 +53,13 @@ $checker = new \Parser\Checker();
                                             <?endforeach;?>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="old_url" name="old_url" placeholder="Старый домен (без www)" value="comfplus.ru">
+                                            <input type="text" class="form-control" id="old_url" name="old_url" placeholder="Старый домен (без www)" value="">
                                         </div>
                                         <div class="form-group">
-                                                 <input type="text" class="form-control" id="new_url" name="new_url" placeholder="Новый домен" value="test.comfplus.ru">
+                                                 <input type="text" class="form-control" id="new_url" name="new_url" placeholder="Новый домен" value="">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="threads" name="threads" placeholder="Количество потоков (по умолчанию 10)" value="5">
+                                            <input type="text" class="form-control" id="threads" name="threads" placeholder="Количество потоков (по умолчанию 10)" value="">
                                         </div>
                                         <button type="submit" class="btn btn-success btn-large">Сравнить</button>
                                         <a href="index.php" role="button" class="btn btn-default btn-large">Начало</a>
