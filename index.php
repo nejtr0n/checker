@@ -25,6 +25,9 @@ $checker = new \Parser\Checker();
                         <div class="panel panel-default setup1">
                             <div class="panel-body">
                                 <h2>Данные</h2>
+                                    <p>
+                                        <img src="img/csv.png" />
+                                    </p>
                                 <form class="file-form ajax-form" method="POST" action="ajax_csvfile.php">
                                     <div class="form-group">
                                         <label for="csvfile">Фаил с проверяемыми страницами (csv)</label>
