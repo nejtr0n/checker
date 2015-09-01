@@ -46,7 +46,7 @@ $checker = new \Parser\Checker();
                                         <div class="form-group">
                                             <label for="algo">Алгоритм оценки:</label>
                                             <?foreach ($checker->getAlgo() as $name => $obj):?>
-                                                <label class="radio-inline"><input type="radio" id="algo" name="algo" value="<?=$name?>" <?if ($i == 1) {echo "checked=\"checked\"";}?>><?=$name?></label>
+                                                <label class="radio-inline"><input type="radio" id="algo" name="algo" value="<?=$name?>"><?=$name?></label>
                                             <?endforeach;?>
                                         </div>
                                         <div class="form-group">
