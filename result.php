@@ -73,6 +73,27 @@ if (isset($_GET['download'])) {
                             <?endforeach;?>
                         </tbody>
                     </table>
+                    <h2>Skip</h2>
+                    <ul>
+                        <li>
+                            <b>0</b><span> - Запрос производился</span>
+                        </li>
+                        <li>
+                            <b>1</b><span> - Ссылка пропущена</span>
+                        </li>
+                    </ul>
+                    <h2>Результаты фильтров</h2>
+                    <ul><li>
+                        <b>0</b><span> - Тексты не совпадают</span>
+                        </li>
+                    <li>
+                        <b>-1</b><span> - Не было хотя бы одного из результатов для сравнения</span>
+                    </li>
+                    <li>
+                        <b>-2</b><span> - Размер текста меньше шингла</span>
+                    </li>
+                </ul>
+                <br />
                     <a href="result.php?clear" role="button" class="btn btn-danger btn-large">Очистить результаты</a>
                     <a href="result.php?download" role="button" class="btn btn-success btn-large">Скачать CSV</a>
                     <a href="index.php" role="button" class="btn btn-default btn-large">Начало</a>
