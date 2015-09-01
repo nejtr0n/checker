@@ -5,6 +5,9 @@
  * Date: 21.08.15
  * Time: 13:46
  */
+/**
+ * Compare sites
+ */
 require_once 'src/autoload.php';
 $checker = new \Parser\Checker();
 ?>
