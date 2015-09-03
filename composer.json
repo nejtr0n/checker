@@ -29,7 +29,6 @@
     "chuyskywalker/rolling-curl":"dev-master",
     "twbs/bootstrap":"dev-master",
     "nejtr0n/parser":"*",
-    "nejtr0n/robots-txt-parser": "*",
     "components/jquery":"dev-master"
   }
 }
