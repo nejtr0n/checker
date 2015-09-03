@@ -16,6 +16,10 @@
     {
       "type": "git",
       "url": "https://github.com/nejtr0n/parser.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/nejtr0n/Robots.txt-Parser-Class.git"
     }
   ],
   "require":{
@@ -25,6 +29,7 @@
     "chuyskywalker/rolling-curl":"dev-master",
     "twbs/bootstrap":"dev-master",
     "nejtr0n/parser":"*",
+    "nejtr0n/robots-txt-parser": "*",
     "components/jquery":"dev-master"
   }
 }
