@@ -71,6 +71,7 @@ $( document ).ready(function() {
                 i++;
                 var DATA = JSON.parse(data);
                 if (DATA.Type == 'Error') {
+                    preloader.Hide();
                     $('.result').removeClass().addClass("result text-danger");
                     $('.result').html(DATA.Mess);
                 } else if(DATA.Type == 'Ok') {
